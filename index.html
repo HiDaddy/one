@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>首页</title>
+    <style>
+        #one{
+            color: white;
+            z-index: 1;
+            position: absolute;
+            top: 250px;
+            left: 120px;
+        }
+        #last{
+            color: white;
+            z-index: 1;
+            position: absolute;
+            bottom: 50px;
+            left: 120px;
+        }
+        .col-md-3 img{
+            z-index: 1;
+            opacity:0.5;
+        }
+        .col-md-3:hover{
+            border: solid 1px yellow;
+            opacity:0.9;
+        }
+        .btn-default:hover{
+            color: white !important;
+        }
+        .btn-default{
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluit">
+            <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">魔兽世界</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left: 120px;">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">玩家视频</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">游戏中心<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">游戏背景</a></li>
+                        <li><a href="#">魔兽漫画</a></li>
+                        <li><a href="#">真人cosplay</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">下载最新客户端</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 52px;">
+        <div class="row">
+            <div class="col-md-12">
+                <video autoplay="autoplay" loop="loop" muted="muted" width="100%" src="https://cms-origin-cn.battle.net/cms/template_resource/sf/SFJL9U62H1KP1490321113881.mp4"></video>
+
+                <div id="one">
+                    <h3>7.2版本已上线</h3>
+                    <div>重返破碎海滩，突袭永夜大教堂，带领抗魔联军全力反攻！</div>
+                    <a class="btn btn-default" style="background-color: #333;color: yellow;opacity:0.7;width: 110px;">了解详情</a>
+                    <a class="btn btn-default" style="background-color: #6c220e;color: yellow;opacity:0.7;width: 110px;">立即充值</a>
+                </div>
+
+                <div id="last">
+                    <span>新闻及更新</span>
+                    <span>查看所有新闻</span>
+
+                    <div class="container" style="text-align: center;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="./img/1.jpg" alt="" style="width: 250px;">
+                                <div>Aprill 6th 2017</div>
+                                <div>在PvP乱斗中叱咤战场吧</div>
+                            </div>
+                            <div class="col-md-3">
+                            <img src="./img/2.jpg" alt="" style="width: 250px;">
+                                <div>Aprill 6th 2017</div>
+                                <div>在PvP乱斗中叱咤战场吧</div>
+                            </div>
+                            <div class="col-md-3">
+                            <img src="./img/3.jpg" alt="" style="width: 250px;">
+                                <div>Aprill 6th 2017</div>
+                                <div>在PvP乱斗中叱咤战场吧</div>
+                            </div>
+                            <div class="col-md-3">
+                            <img src="./img/4.jpg" alt="" style="width: 250px;">
+                                <div>Aprill 6th 2017</div>
+                                <div>在PvP乱斗中叱咤战场吧</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <video autoplay="autoplay" loop="loop" muted="muted" width="100%" src="https://cms-origin-cn.battle.net/cms/template_resource/YY3P4V0M97261473401753110.mp4"></video>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</html>
